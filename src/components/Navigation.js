@@ -26,23 +26,41 @@ export const Navigation = () => (
         Home</NavLink>
        
         <NavLink
-            to="/cities"
+            to="/projectone"
             exact
             style={link}
             activeStyle={{
                 background: 'darkgreen'
             }}
         >
-        Cities</NavLink>
+        Project One</NavLink>
         <NavLink
-            to="/states"
+            to="/projecttwo"
             exact
             style={link}
             activeStyle={{
                 background: 'darkgreen'
             }}
         >
-        States</NavLink>
+        Project Two</NavLink>
+        <NavLink
+            to="/projectthree"
+            exact
+            style={link}
+            activeStyle={{
+                background: 'darkgreen'
+            }}
+        >
+        Project Three</NavLink>
+        <NavLink
+            to="/projectfour"
+            exact
+            style={link}
+            activeStyle={{
+                background: 'darkgreen'
+            }}
+        >
+        Project Four</NavLink>
        
 
     </div>

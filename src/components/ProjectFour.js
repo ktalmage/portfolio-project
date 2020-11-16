@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectFour = () => {
+const ProjectFour = () => {
     return (
         <div>
             
