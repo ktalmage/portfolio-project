@@ -5,9 +5,9 @@ const link = {
     width: '100px',
     padding: '12px',
     margin: '0 6px 6px',
-    background: 'blue',
+    background: 'red',
     textDecoration: 'none',
-    color: 'white',
+    color: 'hot-green',
     
 
 }
@@ -20,7 +20,7 @@ export const Navigation = () => (
             exact
             style={link}
             activeStyle={{
-                background: 'darkgreen'
+                background: 'lightblue'
             }}
         >
         Home</NavLink>
@@ -30,7 +30,7 @@ export const Navigation = () => (
             exact
             style={link}
             activeStyle={{
-                background: 'darkgreen'
+                background: 'lightblue'
             }}
         >
         Project One</NavLink>
@@ -39,7 +39,7 @@ export const Navigation = () => (
             exact
             style={link}
             activeStyle={{
-                background: 'darkgreen'
+                background: 'lightblue'
             }}
         >
         Project Two</NavLink>
@@ -48,7 +48,7 @@ export const Navigation = () => (
             exact
             style={link}
             activeStyle={{
-                background: 'darkgreen'
+                background: 'lightblue'
             }}
         >
         Project Three</NavLink>
@@ -57,7 +57,7 @@ export const Navigation = () => (
             exact
             style={link}
             activeStyle={{
-                background: 'darkgreen'
+                background: 'lightblue'
             }}
         >
         Project Four</NavLink>
