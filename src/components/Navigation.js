@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+
 const link = {
     width: '100px',
     padding: '12px',
@@ -14,7 +15,7 @@ const link = {
 
 export const Navigation = () => (
     
-    <div className='navbar' style={{backgroundColor:'lightseagreen'}}>
+    <div className='navbar' style={{backgroundColor:'gray'}}>
         <NavLink
             to="/"
             exact
