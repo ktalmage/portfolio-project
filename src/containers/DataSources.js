@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-export default class DataSources extends Component {
+class DataSources extends Component {
+
+    
     render() {
         return (
             <div>
@@ -9,5 +11,7 @@ export default class DataSources extends Component {
         )
     }
 }
+
+export default DataSources
 
 
