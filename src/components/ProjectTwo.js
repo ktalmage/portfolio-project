@@ -1,9 +1,11 @@
 import React from 'react'
+import DataSources from '../containers/DataSources'
 
-const ProjectTwo = () => {
+const ProjectTwo = (props) => {
+    debugger
     return (
         <div>
-            
+            <DataSources  component ={props.astronauts}/>
         </div>
     )
 }
