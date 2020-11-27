@@ -10,21 +10,29 @@ class DataSources extends Component {
         };
       }
 
-      componentDidMount(){
-          fetch('http://api.open-notify.org/astros.json')
-          .then(resp => console.log(resp.json()))
-          .then(data => this.setState({data : data}))
-      }
+      componentDidMount() {
+        fetch('http://api.open-notify.org/astros.json')
+        .then(resp => resp.json())
+        .then(data => {
+            this.setState({
+                astros: data.people
+            })
+        })
+    }
 
     render() {
 
-        const { astronauts } = this.state;
+        const { astros } = this.state
 
         return (
             <div>
-                <ul>
-                    <li>{astronauts}</li>
-                </ul>
+                <br></br>
+                <b>These people are at the International Space Station Right Now: </b>
+                
+                {astros.map(person => <li>{person.name} - {person.craft}</li>)}
+                
+                
+               
             </div>
         )
     }

@@ -5,7 +5,7 @@ const ProjectTwo = (props) => {
     debugger
     return (
         <div>
-            <DataSources  component ={props.astronauts}/>
+            <DataSources component ={props.astronauts}/>
         </div>
     )
 }
