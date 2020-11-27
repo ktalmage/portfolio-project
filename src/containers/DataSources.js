@@ -28,7 +28,7 @@ class DataSources extends Component {
             <div>
                 <br></br>
                 <b>These people are at the International Space Station Right Now: </b>
-                <Table striped bordered hover size="sm" align = 'center'>
+                <Table striped bordered hover size="sm" align = 'middle'>
                 <thead>
                      <tr>
                      <th>Name</th>
