@@ -8,6 +8,8 @@ const ProjectOne = () => {
         <div>
             <br>
             </br>
+            This is just a practice map on an array :
+            
             <h>{list}</h>
         </div>
     )
