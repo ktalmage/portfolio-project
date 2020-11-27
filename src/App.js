@@ -6,6 +6,7 @@ import ProjectOne from './components/ProjectOne'
 import ProjectTwo from './components/ProjectTwo'
 import ProjectThree from './components/ProjectThree'
 import ProjectFour from './components/ProjectFour'
+import 'bootstrap/dist/css/bootstrap.min.css';
  
 function App() {
   
