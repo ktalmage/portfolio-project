@@ -6,7 +6,7 @@ const Home = () => {
     
     return (
         <div>
-            <a href="https://hipwallpaper.com/view/7h3tK9"><img src="https://cdn.hipwallpaper.com/m/23/66/7h3tK9.jpg" width = "auto" /></a>
+            
             <h1>Click if you are a fan of this site: {count}  </h1>
             <Button onClick={() => setCount(count + 1)}>
             Click here!
